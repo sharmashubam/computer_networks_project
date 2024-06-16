@@ -51,7 +51,7 @@ The network simulator is developed in Python and provides a framework to simulat
 
 ## Usage
 
-1. Clone the repository:  https://github.com/Shubham23011/network-simulator.git
+1. Clone the repository:  https://github.com/Shubham23011/Computer_Networks_Project.git
 2. Run the desired Python script to simulate different layers and functionalities.
         python physical_layer.py
         python data_link_layer.py
