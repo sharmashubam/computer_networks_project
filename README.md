@@ -1,70 +1,69 @@
-# Network Simulator
-
-This project is a network simulator implementing the entire protocol stack, including functionalities for the Physical, Data Link, Network, Transport, and Application layers.
+Developed a Python-based network simulator that implements a comprehensive protocol stack, covering the Physical, Data Link, Network, Transport, and Application layers.
 
 ## Overview
 
-The network simulator is developed in Python and provides a framework to simulate various networking functionalities, including device creation, packet transmission, routing, and application layer services.
+The network simulator enables simulation of various networking functionalities, including device creation, packet transmission, routing, and application layer services.
 
 ## Functionalities Implemented
 
 ### Submission 1: Physical and Data Link Layer
 
-- **Physical Layer Functionalities:**
-  - Creating end devices and hubs.
-  - Creating connections between devices to form a topology.
-  - Sending and receiving data.
+- **Physical Layer:**
+  - End device and hub creation.
+  - Topology formation with device connections.
+  - Data transmission.
 
-- **Data Link Layer Functionalities:**
-  - Creating layer 2 devices: bridge and switch.
-  - Address learning in switches.
-  - Error control protocol (Parity Check).
-  - Access control protocol (CSMA/CD).
-  - Sliding window-based flow control protocol.
+- **Data Link Layer:**
+  - Layer 2 devices: bridge and switch.
+  - Address learning (switches).
+  - Error control (Parity Check).
+  - Access control (CSMA/CD).
+  - Flow control (Sliding window).
 
 ### Submission 2: Network Layer
 
-- **Network Layer Functionalities:**
-  - Creating and configuring a router.
-  - Assigning well-formatted classless IPv4 addresses to devices.
-  - Using ARP to find the MAC address of a host within a network.
-  - Performing static routing.
-  - Implementing RIP or OSPF protocols for dynamic routing.
+- **Network Layer:**
+  - Router creation and configuration.
+  - IPv4 address assignment (classless).
+  - ARP for MAC address resolution.
+  - Static routing.
+  - Dynamic routing (RIP or OSPF).
 
 ### Submission 3: Transport and Application Layer
 
-- **Transport Layer Functionalities:**
-  - Assigning port numbers to various processes.
-  - Implementing sliding window flow control protocol (Go-Back-N or Selective Repeat).
-  
-- **Application Layer Functionalities:**
+- **Transport Layer:**
+  - Port number assignment.
+  - Sliding window flow control (Go-Back-N or Selective Repeat).
+
+- **Application Layer:**
   - Telnet service.
   - FTP service.
 
 ## File Structure
 
-- **physical_layer.py:** Implementation of physical layer functionalities.
-- **data_link_layer.py:** Implementation of data link layer functionalities.
-- **network_layer.py:** Implementation of network layer functionalities.
-- **transport_application_layer.py:** Implementation of transport and application layer functionalities.
-- **README.md:** This file providing an overview of the project.
+- **physical_layer.py:** Physical layer functionalities.
+- **data_link_layer.py:** Data link layer functionalities.
+- **network_layer.py:** Network layer functionalities.
+- **transport_application_layer.py:** Transport and application layer functionalities.
+- **README.md:** Overview of the project.
 
 ## Usage
 
-1. Clone the repository:  
-```bash
-git clone https://github.com/sharmashubam/computer_networks_project.git
-```
-2. Run the desired Python script to simulate different layers and functionalities.
-        python physical_layer.py
-        python data_link_layer.py
-        python network_layer.py
-        python transport_application_layer.py
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sharmashubam/computer_networks_project.git
+   ```
+2. Run Python scripts for different layers:
+   ```bash
+   python physical_layer.py
+   python data_link_layer.py
+   python network_layer.py
+   python transport_application_layer.py
+   ```
 
 ## Test Cases
 
-Test cases for each functionality have been provided within the Python scripts to demonstrate the working of the simulator.
+Included test cases demonstrate the functionality of each layer within the simulator.
 
 ## Contributors
 
@@ -72,5 +71,6 @@ Test cases for each functionality have been provided within the Python scripts t
 - [Shubam Sharma](https://github.com/sharmashubam)
 - [Podugu Manicharan](https://github.com/manicharanpodugu)
 
+---
 
-
+This version removes the "Network Simulator" heading as requested.
